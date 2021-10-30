@@ -66,7 +66,7 @@ For this <b>coding</b>, main project parts are:
   * Customers which are <i>ecological oriented and having children</i> (ca. 16%)
   * Customers being an <i>‘average’ family</i> (ca. 13.5%)
   
-2. The <i>supervised learning</i> model to deliver a binary classification algorithm predicting if a person is being a Bertelsmann — arvato campaign candidate or not.<br>
+2. The <i>supervised learning</i> model to deliver a binary classification algorithm predicting if a person is being a Bertelsmann — arvato campaign candidate or not (out of an imbalanced training dataset).<br>
   Our evaluation results of the metrics Accuracy and ROC AUC of the investigated classification models is:
   ![Evaluation of Classification models:][image1]
 3. The final [<i>Kaggle competition</i>](https://www.kaggle.com/c/udacity-arvato-identify-customers) where the scoring with other fellow students happens.<br>
@@ -82,7 +82,7 @@ In general, I would separate the tasks having few Python files, but implementing
 Furthermore, regarding engineering principles, this project is implemented as a PoC (Proof-of-Concept) only. Means, no primary SW architecture is designed and the coding is not separated and grouped to Python classes having included domain specific tasks. No packages are created to be able to deploy a real project result including a production application to handle new data records. All this would be a future toDo.
 
 ## Technical
-All coding has been implemented under virtual environment conditions with the libraries mentioned in the requirements.txt file. For Windows, having conda installed, the installation can be done e.g. by:
+All coding has been implemented under <b>virtual environment</b> conditions with the libraries mentioned in the requirements.txt file. For Windows, having conda installed, the installation can be done e.g. by:
 - __Windows__
   ```
 	conda create --name arvato-project python=3.7
@@ -93,6 +93,8 @@ All coding has been implemented under virtual environment conditions with the li
   ```
   python -m ipykernel install --user --name arvato-project --display-name "arvato-project"
   ```
+
+Regarding the <b>libraries</b>, have in mind that for <i>pandas_profiling</i> MS C++ >= V14.0 is required and for the library <i>imblearn</i> (used for imbalanced datasets) h5py=2.8.0 must be installed or AttributeError's will appear.
 
 ## License
 This project coding is released under the [MIT](https://github.com/IloBe/Customer-Segmentation-and-Classification-Master/blob/master/LICENSE) license.

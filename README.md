@@ -14,6 +14,46 @@ So, we analyse demographics information of Bertelsmann customer data and compare
 
 From <b>Data Science</b> point of view, we start with the ETL (Extract, Transform, Load) pipeline including EDA (Exploratory Data Analysis) activities, afterwards we take care of the customer segmentation to build appropriate clusters as the unsupervised learning part, followed by the ML (Machine Learning) pipeline for the investigated classification prediction models as the supervised learning part. The project ends up with a Kaggle competition to get a ranking about our best found classification model and its predictions compared with fellow students.
 
+### Delivered files
+There are four data files associated with this project:
+
+* <i>Udacity_AZDIAS_052018.csv:</i> Demographics data for the general population of Germany; 891 211 person (rows) x 366 features (columns)
+* <i>Udacity_CUSTOMERS_052018.csv:</i> Demographics data for customers of a mail-order company; 191 652 person (rows) x 369 features (columns)
+* <i>Udacity_MAILOUT_052018_TRAIN.csv:</i> Demographics data for individuals who were targets of a marketing campaign; 42 982 person (rows) x 367 (columns)
+* <i>Udacity_MAILOUT_052018_TEST.csv:</i> Demographics data for individuals who were targets of a marketing campaign; 42 833 person (rows) x 366 (columns)
+
+And 2 MS Excel files for feature explanation:
+
+* <i>DIAS Information Levels - Attributes 2017.xlsx:</i> Top-level list of attributes and descriptions, organised by informational category
+* <i>DIAS Attributes - Values 2017.xlsx:</i> Detailed mapping of data values for most of the features in alphabetical order
+
+But there are German column labels which are not explained in the mentioned Excel files. Here are some additional attribute explanations:
+
+* ALTER_KIND1 - age of child no. 1
+* ALTER_KIND2 - age of child no. 2
+* ALTER_KIND3 - age of child no. 3
+* ALTER_KIND4 - age of child no. 4
+* ALTERKATEGORIE_FEIN - age categories ('fein' in this case I guess means a more specific classification)
+* ANZ_KINDER - no. of children
+* ANZ_STATISTISCHE_HAUSHALTE - in Germany a census data is given about statistical households, here its number is counted
+* ARBEIT - work
+* D19_KONSUMTYP_MAX - what kind of consumption type you are
+* D19_LETZTER_KAUF_BRANCHE - the last date you bought something and info about category/segment
+* D19_VERSI_DATUM - insurance date
+* D19_VERSI_OFFLINE_DATUM - insurance date offline
+* D19_VERSI_ONLINE_DATUM - insurance date online
+* D19_VERSI_ONLINE_QUOTE_12 - insurance online quote in the last 12 month
+* DSL_FLAG - what kind of DSL are you using/ are you in
+* EINGEFUEGT_AM - inserted on
+* EINGEZOGEN_HH_JAHR - moved to household in mentioned year
+* FIRMENDICHTE - company density
+* KOMBIALTER - 'Kombi' means combination and 'Alter' is age
+* STRUKTURTYP - what kind of structural type you are
+* UMFELD_ALT - surrounding/neighbourhood is old
+* UMFELD_JUNG - surrounding/neighbourhood is young
+* VERDICHTUNGSRAUM - urban agglomeration
+* VERS_TYP - what kind of insurance type you are
+
 ### Short summary
 Regarding the <b>workflow</b> and the most prominent tasks and results, you can read my following <b>medium</b> [blog post](https://medium.com/@ilona.brinkmeier/customer-segmentation-report-for-arvato-financial-solutions-167cba1545bd).
 

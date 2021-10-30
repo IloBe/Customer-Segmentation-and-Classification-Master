@@ -5,6 +5,8 @@
 
 # Customer Segmentation Report for Arvato Financial Services
 
+<b>Note:</b> Unfortunately the notebook files and all their associated .html files are each bigger ones (>25 MB) and therefore could not be stored in this repository!
+
 ## Project Overview
 With this <b>Udacity Data Science Capstone Project</b>, we are investigating the process chain of a <b>customer relationship</b> of the German, internationally active <b>Bertelsmann Group and its service provider arvato</b>. This German mail-order sales company is interested in identifying segments of the general population to target with their marketing in order to grow. This is their business goal. With this project, we have the role to provide necessary information as a basis for decision-making. 
 

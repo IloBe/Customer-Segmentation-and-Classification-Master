@@ -2,6 +2,7 @@
 
 [image1]: ./images/ClassificationModelsEvalResultSmall.PNG "Evaluation of Classification models:"
 [image2]: ./images/kaggleCompetition_positionUdacityDataScience-BertelsmannArvato-141_2021-08-15.JPG "Kaggle ranking:"
+[image3]: ./images/kaggle_finalLeaderboard_position.PNG "Final Leaderboard with 70% test data:"
 
 # Customer Segmentation Report for Arvato Financial Services
 
@@ -72,6 +73,9 @@ For this <b>coding</b>, main project parts are:
 3. The final [<i>Kaggle competition</i>](https://www.kaggle.com/c/udacity-arvato-identify-customers) where the scoring with other fellow students happens.<br>
   My PoC ranking for the first submitted best model try is:
   ![Kaggle ranking:][image2]
+  
+  And at the final leaderboard after usage of the test data the ranking changed to:
+  ![Final Leaderboard with 70% test data:][image3]
 
 And about the <b>notebooks</b>:<br>
 The first notebook - <i>Arvato_Project_Workbook-PoC-Part1_V01</i> - includes the ETL and the unsupervised learning topics, the supervised learning and the Kaggle competition ranking part of the project are implemented in a second Jupyter notebook - <i>Arvato_Project_Workbook-PoC-Part2-3_V01</i>.

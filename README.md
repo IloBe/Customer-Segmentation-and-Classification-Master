@@ -74,7 +74,7 @@ For this <b>coding</b>, main project parts are:
   My PoC ranking for the first submitted best model try is:
   ![Kaggle ranking:][image2]
   
-  And at the final leaderboard after usage of the test data the ranking changed to:
+  At the final leaderboard, after usage of the test data, the ranking changed to:
   ![Final Leaderboard with 70% test data:][image3]
 
 And about the <b>notebooks</b>:<br>

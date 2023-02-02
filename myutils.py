@@ -10,7 +10,7 @@
 #   with link: https://stackoverflow.com/questions/45239256/data-imputation-with-fancyimpute-and-pandas
 # for pip: https://pypi.org/project/fancyimpute/
 # https://github.com/Ouwen/scikit-mice  aufgrund des papers: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3074241/  
-#           enthält eine py Datei für den MiceImputer und einer öffentliche Methode transform() für LinearRegression model
+#           includes a py file for the MiceImputer and a public method transform() for the LinearRegression model
 # https://datascience.stackexchange.com/questions/19840/rs-mice-imputation-alternative-in-python
 # Mice imputation with statsmodels library: https://www.statsmodels.org/dev/imputation.html
 # statsmodels mice imputation: https://datascience.stackexchange.com/questions/52927/advice-on-imputing-temperature-data-with-statsmodels-mice?rq=1
